@@ -1,5 +1,4 @@
-
-
+/* global styles */
 
 body{
     background-color: #f2f2f2;
@@ -8,69 +7,18 @@ body{
 /* header sytles */
 
 header {
-    background-color: #F2B84B;
-    padding: 10px 0px 10px 0px;
-    
-    
+    background-color: #BF4C0A;
+    padding: 10px 0px 10px 0px; 
+}
+
+main{
+    background-color: #FE974F;
 }
 
 h1{
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
-    text-align: center;
-}
-
-/*buttons*/
-
-ul{
-    list-style-type: none;
-    padding: 5px;
-}
-
-.list-navigation{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-
-li{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    margin: 0px 3px;
-    border: 1px solid limegreen;
-    border-radius: 10px;
-    background-color: aliceblue;
-}
-
-
-.flexgrow-container {
-    display: flex;
-}
-
-button {
-    border: 1px solid blueviolet;
-    border-radius: 5px;
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
-    font-family: aviano-future,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: large;
-    padding: 10px;
-    margin: 2px;
-    transition-duration: .4s;
-}
-
-button:hover {
-    background-color: limegreen;
-    color: white;
-}
-
-button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px darkred;
-    transform: translateY(4px);
+    text-align: left;
 }
 
 footer {
@@ -83,17 +31,4 @@ footer {
     padding: 10px 0px;
 }
 
-.button-one-section {
-    background-color: #255941;
-    padding: 20px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.button-top-img {
-    border: 3px solid white;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px black;
-    width: 70%;
-}
