@@ -6,7 +6,7 @@ body{
 /* header sytles */
 header {
     background-color: #BF4C0A;
-    padding: 5px 0px 5px 0px; 
+    padding: 5px 10px 20px 20px; 
 }
 
 h1{
@@ -54,6 +54,16 @@ h2{
     font-family: 'Oswald', sans-serif;
     color: black;
 }
+
+.homepage-section{
+    padding: 10px;
+}
+
+.space{
+    background-color: black;
+    height:20px;
+}
+
 
 
 
