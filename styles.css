@@ -53,11 +53,51 @@ main{
 h2{
     font-family: 'Oswald', sans-serif;
     color: black;
+    text-align: left;
+    padding: 10px 0px;
 }
 
 .homepage-section{
-    padding: 10px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /*justify-content: center;*/
 }
+
+.CARP-section{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /*justify-content: center;*/
+}
+
+.coding-section{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /*justify-content: center;*/
+}
+
+.typography-section{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /*justify-content: center;*/
+}
+
+.reflection-section{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /*justify-content: center;*/
+}
+
+
 
 .space{
     background-color: black;
