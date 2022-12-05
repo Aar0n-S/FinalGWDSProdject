@@ -13,11 +13,18 @@ h1{
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
     text-align: left;
-    padding: 10px;
+    padding: 1px;
 }
 
 button{
     display:flex;
+    background-color:orangered;
+    border:black;
+    color:black;
+    padding: 10px 5px;
+    font-size: 16px;
+    margin:20px 5px;
+    border-radius: 12px;
 }
 
 .button-navigation{
@@ -29,6 +36,7 @@ button{
 
 .push{
     margin-left: auto;
+    
 }
 
 
