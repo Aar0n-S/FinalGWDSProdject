@@ -18,7 +18,7 @@ h1{
 
 button{
     display:flex;
-    background-color:orangered;
+    background-color: darkorchid;
     border:black;
     color:black;
     padding: 10px 5px;
@@ -27,12 +27,23 @@ button{
     border-radius: 12px;
 }
 
+
+button:hover {
+    background-color: orchid;
+    color: white;
+}
+
+button:active {
+    background-color: #8e3e63;
+}
+
 .button-navigation{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
 }
+
 
 .push{
     margin-left: auto;
@@ -64,6 +75,7 @@ p{
     padding: 10px 0px;
 }
 
+/*homepage*/
 .homepage-section{
     height: 800px;
     display: flex;
@@ -72,12 +84,25 @@ p{
     /*justify-content: center;*/
 }
 
+/*CARP*/
 .CARP-section{
-    height: 800px;
+    height: 3100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     /*justify-content: center;*/
+}
+
+.CARP-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*coding*/
+.coding-box{
+    background-color: black;
 }
 
 .coding-section{
@@ -88,14 +113,23 @@ p{
     /*justify-content: center;*/
 }
 
-.typography-section{
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    /*justify-content: center;*/
+/*typography*/
+.typography-box{
+    background-color: black;
 }
 
+.flexgrow-container{
+    display: flex;
+}
+
+.box{
+    background-color: #FE974F;
+    height: 700px;
+    flex: 1 1 auto;
+}
+
+
+/*reflection*/
 .reflection-section{
     height: 800px;
     display: flex;
@@ -105,13 +139,10 @@ p{
 }
 
 
-
 .space{
     background-color: black;
     height:20px;
 }
-
-
 
 
 /*footer*/
