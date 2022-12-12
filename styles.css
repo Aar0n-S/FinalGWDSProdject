@@ -13,7 +13,7 @@ h1{
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
     text-align: left;
-    padding: 1px;
+    padding: 10px 20px;
 }
 
 button{
@@ -64,7 +64,7 @@ main{
 h2{
     font-family: 'Oswald', sans-serif;
     color: black;
-    text-align: left;
+    text-align: center;
     padding: 10px 0px;
 }
 
@@ -81,52 +81,30 @@ p{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /*justify-content: center;*/
 }
 
 /*CARP*/
-
-
-/*.CARP-section{
-    height: 3100px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    /*justify-content: center;
-}*/
-
-
-.CARP-box{
-    background-color: black;
+.CARP-section{
+    height: 2350px;
 }
 
-.CARP-flexgrow-container{
-    background-color: #FE974F;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.CARP-box{
+.CARP-image{
     margin: 10px 20px;
-    height: 700px;
-    flex: 1 1 auto;
     justify-content: left;
     display: flex;
-    flex-direction: column; 
+    flex-direction: row;
+}
+
+.CARP-text{
+    margin: 10px 20px;
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
 }
 
 /*coding*/
 .coding-box{
     background-color: black;
-}
-
-.coding-section{
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    /*justify-content: center;*/
 }
 
 .coding-box{
@@ -177,7 +155,6 @@ p{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /*justify-content: center;*/
 }
 
 
