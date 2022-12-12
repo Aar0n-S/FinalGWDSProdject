@@ -94,10 +94,31 @@ p{
 }
 
 .CARP-image{
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.CARP-box{
+    background-color: black;
+}
+
+.CARP-flexgrow-container{
+    background-color: #FE974F;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.CARP-box{
+    margin: 10px 20px;
+    height: 700px;
+    flex: 1 1 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
 }
 
 /*coding*/
@@ -119,13 +140,19 @@ p{
 }
 
 .flexgrow-container{
+    background-color: #FE974F;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box{
-    background-color: #FE974F;
+    margin: 10px 20px;
     height: 700px;
     flex: 1 1 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
 }
 
 
