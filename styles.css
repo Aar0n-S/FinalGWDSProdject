@@ -84,22 +84,29 @@ p{
 }
 
 /*CARP*/
-.CARP-section{
-    height: 2350px;
+
+.CARP-box{
+    background-color: black;
 }
 
-.CARP-image{
-    margin: 10px 20px;
-    justify-content: left;
+.CARP-container{
+    background-color: #FE974F;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ca-box{
+    margin: 10px 20px;
+    height: 700px;
+    flex: 1 1 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
 }
 
 .CARP-text{
-    margin: 10px 20px;
-    justify-content: left;
-    display: flex;
-    flex-direction: row;
+    float: left;
 }
 
 /*coding*/
@@ -116,6 +123,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
 }
 
 .c-box{
@@ -125,6 +133,10 @@ p{
     justify-content: center;
     display: flex;
     flex-direction: row; 
+}
+
+.coding-text{
+    float: left;
 }
 
 /*typography*/
@@ -153,8 +165,15 @@ p{
 .reflection-section{
     height: 800px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+   /* flex-direction: column;
+    align-items: flex-start;*/
+}
+
+.reflection-text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 20px;
 }
 
 
