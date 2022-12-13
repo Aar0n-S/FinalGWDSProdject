@@ -85,6 +85,7 @@ p{
 
 /*CARP*/
 
+
 .CARP-box{
     background-color: black;
 }
@@ -105,15 +106,11 @@ p{
     flex-direction: column; 
 }
 
-.CARP-text{
-    float: left;
+.CARP-image{
+    width: 20%;
 }
 
 /*coding*/
-.coding-box{
-    background-color: black;
-}
-
 .coding-box{
     background-color: black;
 }
@@ -123,8 +120,8 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
 }
+
 
 .c-box{
     margin: 10px 20px;
@@ -132,12 +129,9 @@ p{
     flex: 1 1 auto;
     justify-content: center;
     display: flex;
-    flex-direction: row; 
+    flex-direction: column; 
 }
 
-.coding-text{
-    float: left;
-}
 
 /*typography*/
 .typography-box{
@@ -157,7 +151,16 @@ p{
     flex: 1 1 auto;
     justify-content: center;
     display: flex;
-    flex-direction: row; 
+    flex-direction: column; 
+    
+}
+
+.typography-image{
+    width: 30%;
+}
+
+.typography-trans-image{
+    width: 26%;
 }
 
 
