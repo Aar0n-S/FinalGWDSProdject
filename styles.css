@@ -134,26 +134,23 @@ p{
 
 
 /*typography*/
-.typography-box{
-    background-color: black;
+
+.grid-container{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
 }
 
-.flexgrow-container{
-    background-color: #2C95DB;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
 
-.box{
-    margin: 10px 20px;
-    height: 700px;
-    flex: 1 1 auto;
-    justify-content: center;
-    display: flex;
-    flex-direction: column; 
-    
-}
 
 .typography-image{
     width: 30%;
@@ -162,6 +159,7 @@ p{
 .typography-trans-image{
     width: 26%;
 }
+
 
 
 
@@ -176,7 +174,7 @@ p{
 .reflection-text{
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
-    text-align: center;
+    text-align: right;
     padding: 10px 20px;
 }
 
@@ -198,9 +196,7 @@ footer {
     padding: 10px 0px;
 }
 
-.typography-container {
-    padding: 20px;
-}
+
 
 
 
