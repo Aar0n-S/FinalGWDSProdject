@@ -139,25 +139,35 @@ p{
     display: grid;
     gap: 50px;
     grid-template-columns: auto auto auto auto;
-    background-color: #2196F3;
+    background-color: #2C95DB;
     padding: 10px;
 }
 
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: #a7cde7;
+    border: 1px solid #000000;
     padding: 20px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
   }
 
+.grid-item-image{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #a7cde7;
+    border: 1px solid #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 
 .typography-image{
-    width: 30%;
+    width: 105%;
 }
 
 .typography-trans-image{
-    width: 26%;
+    width: 91%;
 }
 
 
