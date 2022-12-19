@@ -77,10 +77,65 @@ p{
 
 /*homepage*/
 .homepage-section{
-    height: 800px;
+    height: 900px;
+    /*display: flex;*/
+    /*flex-direction: column;
+    align-items: flex-end;*/
+}
+
+.homepage-text{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    padding: 10px 20px;
+
+}
+
+.flexgrow-container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+}
+
+.box1 {
+    background-color: #a7cde7;
+    height: 800px;
+    width: 350px;
+    flex: 1 1 auto;
+}
+
+.box2 {
+    background-color: #a7cde7;
+    height: 800px;
+    width: 800px;
+    flex: 1 1 auto;
+}
+
+.box3 {
+    background-color: #a7cde7;
+    height: 800px;
+    width: 350px;
+    flex: 1 1 auto;
+}
+
+.homepage-CARP{
+    width: 90%;
+    padding: 27px;
+}
+
+.homepage-code{
+    width: 93%;
+    padding: 100px 10px;
+}
+
+.homepage-type{
+    width: 91%;
+    padding: 100px 10px;
+}
+
+.box-text{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    padding: 0px 5px;
 }
 
 /*CARP*/
@@ -118,29 +173,32 @@ p{
 }
 
 
-.CARP-box{
-    background-color: black;
-}
-
-.CARP-container{
-    background-color: #2C95DB;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.ca-box{
-    margin: 10px 20px;
-    height: 700px;
-    flex: 1 1 auto;
-    justify-content: center;
-    display: flex;
-    flex-direction: column; 
-}
-
-
-
 /*coding*/
+
+.coding-image{
+    display: flex;
+    width: 48%;
+    padding: 10px 15px;
+}
+
+.coding-text{
+    padding: 0px 15px;
+    font-size: 25px;
+    text-align:right;
+}
+
+.hyperlink{
+    font-size: 25px;
+    text-align: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 48%;
+}
+
 .coding-box{
     background-color: black;
 }
@@ -167,7 +225,7 @@ p{
 
 .type-grid-container{
     display: grid;
-    gap: 50px;
+    gap: 20px;
     grid-template-columns: auto auto auto auto;
     background-color: #2C95DB;
     padding: 10px;
@@ -201,26 +259,24 @@ p{
 }
 
 
-
-
 /*reflection*/
 .reflection-section{
     height: 800px;
-    display: flex;
-   /* flex-direction: column;
+    /*display: flex;
+    flex-direction: row;
     align-items: flex-start;*/
 }
 
 .reflection-text{
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
-    text-align: right;
+    text-align: left;
     padding: 10px 20px;
 }
 
 
 .space{
-    background-color: black;
+    background-color: #2C95DB;
     height:20px;
 }
 
