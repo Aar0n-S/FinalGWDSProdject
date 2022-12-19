@@ -151,7 +151,7 @@ p{
 
 .carp-item{
     background-color: #a7cde7;
-    border: 1pz solid #000000;
+    border: 1px solid #000000;
     padding: 20px;
     font-size: 25px;
     text-align: center;
@@ -272,6 +272,17 @@ p{
     font-size: 25px;
     text-align: left;
     padding: 0px 20px;
+}
+
+.media-container .mediacontent{
+    flex: 1;
+    padding: 10px;
+}
+
+.mediacontent{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
 }
 
 
